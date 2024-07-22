@@ -1,0 +1,261 @@
+/* css reset */
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #FFE8C8;
+}
+
+/* Navigation Bar */
+
+/* Logo and Image */
+/* navigation:logo */
+#logo
+{
+    margin:5px;
+}
+/* navigation:image */
+.imgIcon
+{
+    padding:10px;
+    margin:2px;
+    height:80px;
+    width:100px;
+   
+}
+#navbar
+{
+    display: flex;
+    align-items: center;
+    
+    background-color:black;
+}
+#navbar::before{
+    content:"";
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index: -1;
+
+}
+#navbar ul{
+    display:flex;
+  
+}
+#navbar ul li{
+    list-style:none;
+    font-size:1.5rem;
+}
+#navbar ul li a{
+    color:pink;
+    padding:7px;
+    display:block;
+    text-decoration: none;
+    border-radius:20px;
+    left:0px;
+    top:0px;
+    font-weight: bold;
+    /* border:2px solid green */
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background-color: #FFE8C8;
+    left:0px;
+    top:0px;
+    
+}
+/* Home Section */
+#home
+{
+    display:flex;
+    flex-direction:column;
+    padding:5px 180px;
+    justify-content: center;
+    align-items:center;
+    height:539px;
+}
+#home::before
+{
+    content:"";
+    /* background-image: url('images/burger1.png'); */
+    background-color: #FFE8C8;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.5;
+    
+}
+#home h1{
+    text-align:center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-size: 35px;
+    background-color: #FFE8C8;
+}
+/* Services Section */
+#services
+{
+    margin: 10px;
+    display: flex;
+    height: 361px;
+    padding: 0px;
+    
+       
+}
+
+#services .box
+{
+     
+    margin: 7px;
+    border-radius: 27px; 
+    padding:5px 10px;
+    background-color: #bb5f6f0f;
+}
+#services .box img
+{
+   height:100px;
+   width:100px;  
+   margin:auto;
+   display:block;
+   /* padding:5 10px; */
+  
+
+}
+
+/* Utility classes */
+.h-primary
+{
+    font-size:2.3rem;
+    padding:12px;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    background-color:  #FFC96F;;
+}
+.h-secondary
+{
+    font-size:1.5rem;
+    padding:2px;
+}
+.btn
+{
+    padding:5px;
+    background: #bb5f6f;
+    color: rgb(235, 235, 235);
+    border-radius:10px;
+    font-size: 1.1rem;
+    border:2px solid #d56074;
+    margin:13px;
+    cursor:pointer;
+
+}
+p{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    text-align:center;
+    justify-content:center;
+    font-size:1.2rem;
+}
+.center
+{
+    text-align:center;
+}
+.img1
+{
+    padding:3px;
+    margin:10px;
+
+}
+/* client section */
+#clients
+{
+    display:flex;
+    background-color: #bb5f6f0f;
+    margin: 10px;
+    justify-content: center;
+    align-items:center;
+    height: 120px;
+    padding: 0px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+   
+}
+#client-container
+{
+    height:320px;
+    position:relative;
+    flex-wrap:wrap;
+    
+
+}
+#client-container ::before{
+content:"";
+position:absolute;
+z-index:-1;
+
+
+
+}
+#clients img
+{
+    height:60px;
+    width:70px;
+    padding:5px;
+    margin:12px;
+}
+/* contact section */
+#contact
+{
+    position:relative;
+}
+#contact-box::before
+{
+    position:absolute;
+    background-color: #bb5f6f;
+}
+#facebook
+{
+    border-radius: 7px;
+}
+/* footer design */
+footer
+{
+    font-family: "Oswald", sans-serif;
+font-size:1.1rem;
+padding:12px;
+background-color: black;
+color:white;
+}
+/* styling form */
+#contact-box input,#contact-box textarea{
+    width:100%;
+    padding:0.5rem;
+}
+#contact-box
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:16px;
+}
+#contact-box form
+{
+    width:60%;
+    
+}
+#contact-box label{
+    font-family: "Oswald", sans-serif;
+    font-size:  1rem;
+    
+}

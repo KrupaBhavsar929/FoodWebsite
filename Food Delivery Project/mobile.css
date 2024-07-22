@@ -1,0 +1,79 @@
+
+/* navigation */
+#navbar
+{
+    flex-direction:column;
+    width:46rem;
+    z-index: 1000;
+    position: sticky;
+   
+}
+
+
+/* home section */
+#home
+{
+    height:480px;
+    width:23rem;
+    background-color: #FFE8C8;
+}
+#home h1
+{
+    font-size: 35px;
+    background-color: #FFE8C8;
+}
+#home p
+{
+    font-size: 22px;
+}
+.center
+{
+    text-align: center;
+    justify-content: center;
+}
+
+/* services section */
+#services
+{
+    flex-direction: column;
+    background-color: #FFE8C8;
+    height:38rem;
+    width: 46rem;
+    padding: 3px;
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+}
+#services .box p
+{
+    font-size: 15px;
+    
+}
+/* client section */
+
+#client-container {
+    height: 0rem;
+    position: relative;
+    width: 46rem;
+    background-color: orange;
+}
+
+#clients {
+    display: flex;
+    background-color: #FFE8C8;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    padding: 0px;
+}
+/* footer section */
+
+.h-primary
+{
+    width: 45rem;
+    background: #FFC96F;
+}
+body{
+    background-color: #FFE8C8;
+}
